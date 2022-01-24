@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DashBoard Demo</title>
+  <!-- boxicons cdn -->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <!-- bootstrap cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css"/>
+  <!-- my css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- font awessome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+</head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <!-- logo  -->
+      <i class='bx bx-wallet-alt' ></i>
+      <span class="logo_name">PORTFOLIO</span>
+
+      <!-- side nav bar -->
+    </div>
+    <ul class="nav-links">
+    <li>
+      <a href="#">
+        <i title="DashBoard" class='bx bxs-dashboard'></i>
+        <span class="link_name">DashBoard</span> </a>
+    </li>
+
+    <li>
+      <a href="#">
+        <i title="Product" class='bx bxs-box'></i>
+        <span class="link_name">Product</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="#">
+        <i title="Order List" class='bx bx-list-ul'></i>
+        <span class="link_name">Order List</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="#">
+        <i title="Analytics" class='bx bxs-pie-chart-alt-2'></i>
+        <span class="link_name">analytics</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="#">
+        <i title="Stock" class='bx bx-coin-stack' ></i>
+        <span class="link_name">stock</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="#">
+        <i title="Order Book" class='bx bxs-book'></i>
+        <span class="link_name">order book</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="#">
+        <i title="Team" class='bx bx-user'></i>
+        <span class="link_name">team</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="#">
+        <i title="Messages"  class='bx bx-message-alt-detail'></i>
+        <span class="link_name">messages</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="#">
+        <i title="Favorites" class='bx bx-heart'></i>
+        <span class="link_name">favorites</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="#">
+        <i title="Settings" class='bx bx-cog'></i>
+        <span class="link_name">settings</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="#">
+        <i title="Log Out" class='bx bx-power-off'></i>
+        <span class="link_name">log out</span>
+      </a>
+    </li>
+  </ul>
+
+  </div>
+
+  <!-- home content -->
+  <section class="home-section">
+    <nav>
+      <div class="sidebar-button sidebarBtn">
+        <i title="MENU" class='bx bxs-chevrons-right'></i>
+        <span class="dashboard">Dashboard</span>
+      </div>
+      <div class="search-box">
+      <input type="text" placeholder="Search....">
+      <i class='bx bx-search-alt' ></i>
+    </div>
+    <div class="profile-details">
+    <img src="images/head-gd4c602851_1920.png" alt="">
+    <span class="admin_name"> Nnadi Victory</span>
+    <i class='bx bx-chevron-down' ></i>
+  </div>
+    </nav>
+
+
+    <!-- home content II -->
+    <div class="home-content container px-4">
+      <div class="overview-boxes justify-content-around row">
+        <div class="box col-md-3 mt-2">
+          <div class="left-sides">
+            <div class="box_topic">Order List</div>
+            <div class="line">
+            </div>
+            <div class="number">+$10,669</div>
+            <div class="indicator">
+              <i class='bx bx-trending-up' ></i>
+              <span class="text">Up from yesterday</span>
+            </div>
+          </div>
+          <i class='bx bx-bar-chart chart' ></i>
+        </div>
+
+        <div class="box  col-md-3 mt-2">
+          <div class="left-sides">
+            <div class="box_topic">Total sales</div>
+            <div class="line">
+            </div>
+            <div class="number">+$55,009</div>
+            <div class="indicator">
+              <i class='bx bx-trending-up' ></i>
+              <span class="text">last 30 Days</span>
+            </div>
+          </div>
+          <i class='bx bxs-cart-add chart two' ></i>
+        </div>
+
+        <div class="box col-md-3 mt-2">
+          <div class="left-sides">
+            <div class="box_topic">affiliate balance</div>
+            <div class="line">
+            </div>
+            <div class="number">+$2,586</div>
+            <div class="indicator">
+              <i class='bx bx-trending-up' ></i>
+              <span class="text">last 24 hours*</span>
+            </div>
+          </div>
+          <i class='bx bx-money-withdraw chart' ></i>
+        </div>
+
+      </div>
+    </div>
+<hr class="line-two mt-5 pt-1">
+  <!-- newsletter section -->
+  <div class="container mb-4 row text-center justify-content-around">
+    <div class="row">
+      <h3 class="text-center fw-bolder mt-2">LATEST NEWS</h3>
+    </div>
+    <div class="col-md-6 ">
+      <h4 class="topic mt-4">the stock market</h4>
+     <p class="news-text mt-2 newsbox"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, sit asperiores dicta maiores facilis veritatis perspiciatis impedit. Cumque, optio sed architecto, repellat officia dolorem facilis praesentium aut doloremque fugit quidem.</p>
+     <div class="btn btn-sm read-more-btn btn-primary mb-4">Read more <i class='bx bxs-right-arrow-alt' ></i></div>
+    </div>
+    <div class="col-md-6">
+      <h4 class="topic mt-4">Crypocurrency state</h4>
+      <p class="news-text mt-2 newsbox">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia officia, magni assumenda sit similique voluptate, non perspiciatis atque temporibus pariatur nobis, aliquid tempore dolorem quis quas eveniet nostrum aspernatur. Facere.
+      </p>
+      <div class="btn btn-sm btn-primary read-more-btn mb-4">Read more <i class='bx bxs-right-arrow-alt' ></i></div>
+    </div>
+    </div>
+  </div>
+  <hr class="line-two mt-5 pt-1">
+  <!-- cards section -->
+  <div class="container">
+    <div class="row">
+      <h3 class="text-center last-title fw-bolder mt-3 mb-5"> NEW INVESTORS </h3>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="images/man2.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title fw-bolder">wilfred james</h5>
+            <p class="card-text">professional cryptocurrency trader and data analyst</p>
+          </div>
+          <ul class="list-group list-group-flush tb-write-up">
+            <span><i class='bx bx-chevron-up-circle'></i></span>
+            <li class="list-group-item ">total of 65.65% profit</li>
+            <span>
+              <i class='bx bx-message-rounded-dots' ></i>
+            </span>
+            <li class="list-group-item">great teamworker</li>
+          </ul>
+          <div class="card-body">
+            <div class="card-icon">
+            <i class='bx bxl-instagram' ></i>
+            <i class='bx bxl-facebook' ></i>
+            <i class='bx bxl-twitter' ></i>
+            <i class='bx bxl-github' ></i>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="images/woman.jpg " class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title fw-bolder">jane dana</h5>
+            <p class="card-text">professional cryptocurrency trader and data.</p>
+          </div>
+          <ul class="list-group list-group-flush tb-write-up">
+            <span><i class='bx bx-chevron-up-circle'></i></span>
+            <li class="list-group-item ">total of 54.99% sales profit</li>
+            <span>
+              <i class='bx bx-message-rounded-dots' ></i>
+            </span>
+            <li class="list-group-item">best tech product manager</li>
+          </ul>
+          <div class="card-body">
+            <div class="card-icon">
+              <i class='bx bxl-instagram' ></i>
+              <i class='bx bxl-facebook' ></i>
+              <i class='bx bxl-twitter' ></i>
+              <i class='bx bxl-github' ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="images/group.jpg"  class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title fw-bolder">the hulk brothers</h5>
+            <p class="card-text">experts in their profession,good FX traders and investoers.</p>
+          </div>
+          <ul class="list-group list-group-flush tb-write-up">
+            <span><i class='bx bx-chevron-up-circle'></i></span>
+            <li class="list-group-item ">total of 33.87% profit</li>
+            <span>
+              <i class='bx bx-message-rounded-dots' ></i>
+            </span>
+            <li class="list-group-item">best FX of the week</li>
+          </ul>
+          <div class="card-body">
+            <div class="card-icon">
+              <i class='bx bxl-instagram' ></i>
+              <i class='bx bxl-facebook' ></i>
+              <i class='bx bxl-twitter' ></i>
+              <i class='bx bxl-github' ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
