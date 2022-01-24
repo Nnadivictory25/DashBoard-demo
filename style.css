@@ -89,7 +89,6 @@ body{
 /* home section css */
 
 .home-section{
-    background: #f5f5f5;
     position: relative;
     min-height: 100vh;
     width: calc(100% - 240px);
@@ -113,6 +112,7 @@ body{
     justify-content: space-between;
     box-shadow: 0 0 5px 0px rgba(37, 32, 32, 0.5);
     z-index: 9999;
+    transition: all .5s ease-in-out;
 }
 .home-section nav .sidebar-button{
     display: flex;
@@ -330,7 +330,7 @@ nav .profile-details i{
     color: rgb(136, 243, 150);
 }
 /* for responsiveness  */
-@media (max-width: 1326px){
+@media (max-width: 1500px){
     .home-section nav{
         width: calc(100% - 240px);
         left: 240px;
