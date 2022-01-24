@@ -1,2 +1,2 @@
 # DashBoard-demo
-created and admin-like dashboard page
+created an admin-like dashboard page
