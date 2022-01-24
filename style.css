@@ -191,9 +191,12 @@ nav .profile-details i{
     font-size: 25px;
 }
 .home-section .home-content{
-    /* position: relative; */
     padding-top: 100px;
 
+}
+/* top card boxes  */
+.home-content .overview-boxes{
+    flex-wrap: wrap;
 }
 .home-content .overview-boxes .box{
   padding: 15px 14px;
@@ -260,6 +263,7 @@ nav .profile-details i{
     width: 50%;
     border-radius: 40px;
 }
+/* news section  */
 .news-text{
     font-size: 14px;
 }
@@ -287,7 +291,174 @@ nav .profile-details i{
     background: #081d45;
     transform: translateY(-4px);
 }
+/* last cards  */
 .card, .list-group-item{
     background: #0a2558;
     color: #fff;
+}
+.card{
+    box-shadow: 25px 14px 51px 2px rgba(0,0,0,0.72);
+-webkit-box-shadow: 25px 14px 51px 2px rgba(0,0,0,0.72);
+-moz-box-shadow: 25px 14px 51px 2px rgba(0,0,0,0.72);
+}
+.cards-section{
+    align-items: center;
+}
+.list-group-item{
+    font-size: 12px;
+    
+}
+.list-group-item i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.card-icon{
+    align-items: center;
+    text-align: center;
+}
+.card-icon i{
+   margin-right: 16px;
+   font-size: 30px;
+   cursor: pointer;
+   transition: all .3s ease-in-out;
+}
+.card-icon i:hover{
+    transform: translateY(-7px);
+    font-size: 35px;
+}
+.green{
+    color: rgb(136, 243, 150);
+}
+/* for responsiveness  */
+@media (max-width: 1326px){
+    .home-section nav{
+        width: calc(100% - 240px);
+        left: 240px;
+    }
+    .sidebar.active{
+        width: 240px;
+    }
+    .sidebar.active ~ .home-section{
+        width: calc(100% - 240px);
+        left: 240px;
+    }
+    .sidebar.active ~ .home-section nav{
+        width: calc(100% - 240px);
+        left: 240px;
+    }
+}
+@media (max-width: 1216px){
+    .sidebar{
+        width: 60px;
+    }
+    .home-section{
+        width: calc(100% - 60px);
+        left: 60px;
+    }
+    .home-section nav{
+        width: calc(100% - 60px);
+        left: 60px;
+    }
+    .sidebar.active{
+        width: 220px;
+    }
+    .sidebar.active ~ .home-section{
+        width: calc(100% - 220px);
+        left: 220px;
+    }
+    .sidebar.active ~ .home-section nav{
+        width: calc(100% - 220px);
+        left: 220px;
+    }
+}
+@media (max-width: 1048px){
+    .home-content .overview-boxes .box{
+        width: calc(65% / 2 - 15px);
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 1052px){
+    .home-content .overview-boxes .box{
+        width: calc(60% / 2 - 15px);
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 1018px){
+    .home-content .overview-boxes .box{
+        width: calc(80% / 2 - 15px);
+        margin-bottom: 15px;
+    }
+    .card{
+
+    }
+}
+@media (max-width: 658px){
+    .home-section nav .sidebar-button .dashboard, nav .profile-details .admin_name, nav .profile-details .admin_name i{
+        display: none;
+    }
+    nav .profile-details{
+        min-width: 50px;
+        height: 50px;
+    }
+    .home-content .overview-boxes .box{
+        width: 100%;
+    }
+}
+@media (max-width: 1181px){
+    .home-content .overview-boxes .box{
+    width: calc(65% / 2 - 15px);
+ }
+}
+@media (max-width: 977px){
+    .home-content .overview-boxes .box{
+    width: calc(85% / 2 - 15px);
+ }
+}
+@media (max-width: 737px){
+    .home-content .overview-boxes .box{
+    width: calc(100% / 2 - 15px);
+ }
+}
+@media (max-width: 553px){
+    .home-content .overview-boxes .box{
+    width: calc(70% / 1 - 15px);
+ }
+}
+@media (max-width: 768px){
+    .home-content .overview-boxes .box{
+    width: calc(65% / 2 - 15px);
+ }
+}
+@media (max-width: 546px){
+    .home-content .overview-boxes .box{
+     width: calc(30% / 2 - 15px);
+ }
+}
+@media (max-width: 990px){
+    .home-content .overview-boxes .box{
+    width: calc(80% / 2 - 15px);
+ }
+}
+@media (max-width: 1004px){
+    .home-content .overview-boxes .box{
+    width: calc(80% / 2 - 15px);
+ }
+}
+@media (max-width: 718px){
+    .home-content .overview-boxes .box{
+    width: calc(99% / 2 - 15px);
+    margin-right: 9px;
+ }
+}
+@media (max-width: 768px){
+    .home-content .overview-boxes .box{
+    width: 50%;
+ }
+ .home-content .overview-boxes .box.two{
+        margin-left: 8px;
+ }
+ .card{
+     align-content: center;
+     width: calc(30% / 2 - 15px);
+ }
 }
