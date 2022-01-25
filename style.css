@@ -429,9 +429,10 @@ nav .profile-details i{
     width: calc(65% / 2 - 15px);
  }
 }
-@media (max-width: 546px){
+@media (max-width: 556px){
     .home-content .overview-boxes .box{
      width: calc(30% / 2 - 15px);
+     flex-grow: 1 !important;
  }
 }
 @media (max-width: 990px){
@@ -446,9 +447,7 @@ nav .profile-details i{
 }
 @media (max-width: 718px){
     .home-content .overview-boxes .box{
-    width: calc(99% / 2 - 15px);
-    margin-right: 9px;
- }
+    width: 100%;
 }
 @media (max-width: 768px){
     .home-content .overview-boxes .box{
@@ -461,4 +460,44 @@ nav .profile-details i{
      align-content: center;
      width: calc(30% / 2 - 15px);
  }
+}
+@media (min-width: 558px) and (max-width: 748px){
+    .home-content .overview-boxes .box{
+    width: calc(85% / 2 - 15px);
+ }
+}
+@media (min-width: 558px) and (max-width: 708px){
+    .home-content .overview-boxes .box{
+    flex-grow: 1;
+ }
+}
+}
+@media (min-width: 558px) and (max-width: 708px){
+    .home-content .overview-boxes .box{
+    flex-grow: 1;
+ }
+}
+@media (min-width: 350px) and (max-width: 466px){
+    .sidebar.active{
+        width: 200px;
+    }
+    .sidebar.active ~ .home-section{
+        max-width: 400rem;
+    }
+    .sidebar.active ~ .home-section nav .sidebar-button{
+        display: block;
+    }
+    .sidebar.active ~ .home-section nav{
+        width: calc(100% - 200px);
+        left: 200px;
+    }
+    .sidebar.active ~  .home-section nav .search-box{
+        display: none;
+    }
+     nav .profile-details i{
+        display: none;
+    }
+    .sidebar.active ~ .home-section nav .sidebar-button{
+            display: block;
+    }
 }
