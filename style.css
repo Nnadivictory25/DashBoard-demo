@@ -17,6 +17,9 @@ html{
 body{
     min-height:100vh ;
 }
+.container-news-sec {
+    padding-right: 0px !important;
+}
 /* sidebar css */
 .sidebar{
     height: 100%;
@@ -193,6 +196,73 @@ nav .profile-details i{
 .home-section .home-content{
     padding-top: 100px;
 
+}
+/* second navbar */
+.header nav{
+    background: linear-gradient(to left, #0a2558, #051a41) !important;
+    width: 100%;
+    padding: 5px 5px;
+}
+.header nav .nav-link{
+    color: #fff !important;
+}
+.header nav .navbar-collapse{
+    background: linear-gradient(to left, #0a2558, #051a41);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 20px 0;
+}
+.header nav .navbar-brand{
+    color: #fff !important;
+    align-items: center;
+    display: flex;
+} 
+.header nav .bxs-chevrons-down{
+    color: #fff !important;
+    box-shadow: 0 !important;
+    outline: 0;
+    animation-duration: 2000ms;
+    font-size: 36px;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+.header nav .logo_name{
+    font-size: 20px;
+    font-weight: 550;
+}
+.header nav .navbar-brand i{
+    font-size: 35px;
+    font-weight: 500;
+    color: #fff;
+    min-width: 60px;
+    text-align: center;
+}
+.header nav .nav-links a{
+    height: 45px;
+    width: 100%;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: all .4s ease-in-out;
+    margin-bottom: 1.7px;
+}
+.header nav .nav-links a i{
+    min-width: 60px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    padding-bottom: .35rem;
+}
+.header nav .nav-links a:hover{
+    background: #081d45;
+    transform: translateX(4px);
+    box-shadow: 0 0 3px 0px rgba(167, 157, 157, 0.5);
+    border-radius: 5px;
 }
 /* top card boxes  */
 .home-content .overview-boxes{
@@ -388,9 +458,6 @@ nav .profile-details i{
         width: calc(80% / 2 - 15px);
         margin-bottom: 15px;
     }
-    .card{
-
-    }
 }
 @media (max-width: 658px){
     .home-section nav .sidebar-button .dashboard, nav .profile-details .admin_name, nav .profile-details .admin_name i{
@@ -500,4 +567,30 @@ nav .profile-details i{
     .sidebar.active ~ .home-section nav .sidebar-button{
             display: block;
     }
+}
+@media (min-width: 985px) and (max-width: 1500px){
+    .header nav{
+    display: none;
+ }
+}
+@media (max-width: 985px){
+    .sidebar{
+    display: none;
+ }
+ .home-section nav{
+  display: none;
+}
+ .header nav{
+    display: block;
+    left: 0;
+    width: 100%;
+    height: 50px;
+ }
+ .home-section {
+    width: calc(100% - 0px);
+    left: 0;
+ }
+ .card-container{
+     align-items: center;
+ }
 }
