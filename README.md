@@ -13,3 +13,6 @@ created an admin-like dashboard page
 
 # responsiveness
 ![Screenshot (13)](https://user-images.githubusercontent.com/71198309/151366194-058b9b4a-77f2-4995-a66f-3a0068600823.png)
+
+# more pics
+![Screenshot (14)](https://user-images.githubusercontent.com/71198309/151366612-c3593c78-0865-4417-8bb2-a7bbb9ea764c.png)
